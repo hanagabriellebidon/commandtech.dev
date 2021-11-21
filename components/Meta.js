@@ -6,7 +6,7 @@ export default function Meta({ title }) {
   const keywords = "stem, hackathon, mentorship, coding";
   const author = "Command Tech";
   const twitter = "@CommandTech";
-  const image = "";
+  const image = "/og-image.png";
   return (
     <Head>
       <meta charSet="utf-8" />

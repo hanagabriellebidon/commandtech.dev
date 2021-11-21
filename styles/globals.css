@@ -15,3 +15,36 @@ html[data-theme="dark"] {
   --background: #2b257e;
   --foreground: white;
 }
+
+@layer base {
+  main {
+    @apply max-w-sm md:max-w-2xl lg:max-w-4xl;
+  }
+  h1 {
+    @apply text-5xl font-bold font-montserrat;
+  }
+  h2,
+  h3 {
+    @apply text-3xl font-medium font-montserrat;
+  }
+  h4 {
+    @apply text-xl font-semibold;
+  }
+  p {
+    @apply text-lg font-sans pb-5;
+  }
+  strong {
+    @apply font-semibold;
+  }
+}
+
+::selection {
+  background: #ff0099;
+  color: black;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #ff0099;
+  color: #eee;
+  text-shadow: none;
+}

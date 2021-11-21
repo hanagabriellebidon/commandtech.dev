@@ -1,12 +1,21 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class", // can be 'false', 'media', or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: "Montserrat, sans-serif",
+        sans: "Source Sans Pro, sans-serif",
+      },
+      colors: {
+        navy: "#2B257E",
+        black: "#000000",
+        white: "#ffffff",
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};

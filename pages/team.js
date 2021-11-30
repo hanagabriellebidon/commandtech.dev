@@ -4,6 +4,7 @@ import Highlight from "../components/Highlight";
 import Meta from "../components/Meta";
 import Nav from "../components/Nav";
 import TeamCard from "../components/team/TeamCard";
+import roster from "../lib/team.json";
 
 export default function Team() {
   return (
@@ -36,46 +37,13 @@ export default function Team() {
 
           <h2>Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
-            <TeamCard
-              src="/team/belle.png"
-              name="Belle"
-              position="Lead Director"
-            />
+            {roster.map((person) => (
+              <TeamCard
+                src="/team/belle.png"
+                name={person.name}
+                position={person.role}
+              />
+            ))}
           </div>
         </div>
       </main>

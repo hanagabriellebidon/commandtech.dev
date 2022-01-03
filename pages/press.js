@@ -2,20 +2,23 @@ import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 import Nav from "../components/Nav";
+import Image from "next/image";
 
 export default function Team() {
   return (
     <div className="flex flex-col items-center min-h-screen text-navy dark:text-white dark:bg-navy">
       <Meta title="Press" />
       <Nav />
-      <main>
-        <h1>Press</h1>
+      <main className="container-copy">
+        <h1 className="headline font-montserrat font-bold">Press</h1>
         <p>
           Thanks for your interest in Command Tech, you can probably find what
           you need here :) Please let us know if you use any information from
           this site!
         </p>
-        <h2>About</h2>
+        <h2 className="pt-8 subheadline font-semibold font-montserrat">
+          About
+        </h2>
         <div className="flex flex-col space-y-5">
           <Description wc="19">
             Command tech is a fiscally sponsored 501(c)3 organisation that
@@ -48,12 +51,19 @@ export default function Team() {
         <br />
         <Button href="/">Our&nbsp;Pitch&nbsp;Deck&nbsp;&rarr;</Button>
 
-        <h2>Branding</h2>
-        <div>
-          <p>logo</p>
+        <h2 className="subheadline pt-16 font-semibold font-montserrat">
+          Our Logos
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto">
+          <Image src="/logos/square-white.png" width={200} height={200} />
+          <Image src="/logos/square-white.png" width={200} height={200} />
+          <Image src="/logos/square-white.png" width={200} height={200} />
+          <Image src="/logos/square-white.png" width={200} height={200} />
         </div>
 
-        <h2>Photos</h2>
+        <h2 className="subheadline pt-16 font-semibold font-montserrat">
+          Photos
+        </h2>
         <div>
           <p>yeah photos</p>
         </div>

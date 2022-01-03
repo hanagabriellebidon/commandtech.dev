@@ -1,15 +1,21 @@
 import Image from "next/image";
 import Icon from "supercons";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 export default function Footer() {
+  const { theme, setTheme } = useTheme();
   return (
     <footer className="flex space-between max-w-screen md:max-w-4xl lg:max-w-6xl mx-4 pb-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div>
           <ul className="space-y-1">
             <li>
-              <Image src="/logos/square-blue.png" width={50} height={50} />
+              {theme === "dark" ? (
+                <Image src="/logos/square-white.png" width={50} height={50} />
+              ) : (
+                <Image src="/logos/square-blue.png" width={50} height={50} />
+              )}
             </li>
             <li>
               Command Tech is a student-led nonprofit empowering using tech to

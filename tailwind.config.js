@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: "Montserrat, sans-serif",
-        sans: "Source Sans Pro, sans-serif",
+        sans: "Source Sans Pro, DM Sans, sans-serif",
       },
       colors: {
         navy: "#2B257E",

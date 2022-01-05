@@ -23,8 +23,8 @@ export default function Home() {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-4 mx-auto">
           <InfoCard
-            destination="/"
-            heading="Learn a new technical skill"
+            destination="http://bit.ly/ct-resource"
+            heading="Learn a new skill"
             copy="Want to further your skills or discover something new? Our team, with the help of the community, has compiled a resource guide for tech, design, and productivity!"
           />
           <InfoCard
@@ -33,7 +33,7 @@ export default function Home() {
             copy="We have a network of tech professionals that are enthusiastic about helping the next generation of female and nonbinary tech students!"
           />
           <InfoCard
-            destination="/"
+            destination="https://commandtech.dev/connect"
             heading="Connect your community to tech mentors"
             copy="We provide the framework and mentors for your community so they can work on projects together and learn about the industry from tech mentors!"
           />

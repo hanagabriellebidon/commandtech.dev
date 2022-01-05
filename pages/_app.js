@@ -21,7 +21,7 @@ function RenderResults() {
         ) : (
           <div
             style={{
-              background: active ? "#eee" : "transparent",
+              background: active ? "#e55e55" : "transparent",
             }}
           >
             {item.name}
@@ -39,14 +39,14 @@ function MyApp({ Component, pageProps }) {
       name: "Blog",
       shortcut: ["b"],
       keywords: "writing words",
-      perform: () => (window.location.pathname = "blog"),
+      perform: () => window.open("/blog"),
     },
     {
       id: "about",
       name: "about",
       shortcut: ["a"],
       keywords: "about command who",
-      perform: () => (window.location.pathname = "about"),
+      perform: () => window.open("/about"),
     },
   ];
 

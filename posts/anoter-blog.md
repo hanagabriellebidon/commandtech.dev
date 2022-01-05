@@ -2,7 +2,7 @@
 title: "blawg"
 date: "10-12-123"
 description: "hai tadfasdf asdfasd fasdf"
-image: "https://github.com/bellesea.png"
+image: "/images/placeholder0.jpeg"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

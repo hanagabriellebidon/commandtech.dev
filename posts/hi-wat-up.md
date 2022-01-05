@@ -2,7 +2,7 @@
 title: "hi wat up"
 date: "10-12-12"
 description: "hai this is a description"
-image: "https://github.com/eilla1.png"
+image: "/images/placeholder0.webp"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

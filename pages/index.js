@@ -24,8 +24,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-4 mx-auto">
           <InfoCard
             destination="/"
-            heading="Host your own inclusive tech event"
-            copy="Want to host a tech event but don’t know where to start? We have gathered a group of successful event organisers to help you! "
+            heading="Learn a new technical skill"
+            copy="Want to further your skills or discover something new? Our team, with the help of the community, has compiled a resource guide for tech, design, and productivity!"
           />
           <InfoCard
             destination="/"

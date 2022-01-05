@@ -2,6 +2,7 @@ import Image from "next/image";
 import Icon from "supercons";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+import Mailchimp from "./MailchimpForm";
 
 export default function Footer() {
   const { theme, setTheme } = useTheme();
@@ -65,9 +66,7 @@ export default function Footer() {
                 Command Connect
               </Link>
             </li>
-            <li>
-              <Link href="/">Command Hacks</Link>
-            </li>
+
             <li>
               <Link href="/">Partnerships</Link>
             </li>
@@ -76,33 +75,20 @@ export default function Footer() {
                 Donate
               </Link>
             </li>
+            <li>
+              <Link href="/discord">Discord Community</Link>
+            </li>
           </ul>
         </div>
         <div>
           <ul>
-            <li>
-              <strong>Join our community</strong>
-            </li>
-            <li>
-              <button className="rounded-lg px-3 py-1 font-semibold bg-navy text-white dark:bg-white dark:text-navy mt-1">
-                Discord
-              </button>
-            </li>
-            <br />
             <li>
               <strong>Subscribe</strong>
               <br />
               <span>Opportunities and updates straight to your inbox!</span>
             </li>
             <li>
-              <form action="" method="POST">
-                <input placeholder="enter your email" />
-                <br />
-                <input
-                  type="submit"
-                  className="rounded-lg px-3 py-1 font-semibold bg-navy text-white dark:bg-white dark:text-navy mt-1 cursor-pointer"
-                />
-              </form>
+              <Mailchimp />
             </li>
           </ul>
         </div>

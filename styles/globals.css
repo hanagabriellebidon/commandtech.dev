@@ -19,7 +19,7 @@ html[data-theme="dark"] {
 
 @layer components {
   .container {
-    @apply max-w-7xl;
+    @apply max-w-5xl;
   }
   .container-wide {
     @apply max-w-screen-2xl;

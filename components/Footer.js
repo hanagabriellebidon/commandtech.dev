@@ -35,6 +35,7 @@ export default function Footer() {
               <Icon glyph="twitter" size={30} />
               <Icon glyph="instagram" size={30} />
               <Icon glyph="youtube" size={30} />
+              <Icon glyph="github" size={30} />
             </li>
           </ul>
         </div>
@@ -43,6 +44,9 @@ export default function Footer() {
             <strong>Command Tech</strong>
             <li>
               <Link href="/about">About us</Link>
+            </li>
+            <li>
+              <Link href="/blog">Blog</Link>
             </li>
             <li>
               <Link href="/team">Team</Link>

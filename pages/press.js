@@ -21,16 +21,16 @@ export default function Team() {
         </h2>
         <div className="flex flex-col space-y-5">
           <Description wc="19">
-            Command tech is a fiscally sponsored 501(c)3 organisation that
+            Command Tech is a fiscally sponsored 501(c)3 organisation that
             utilises tech to empower female and non-binary students
           </Description>
           <Description wc="24">
-            Command tech is a fiscally sponsored 501(c)3 organisation that
+            Command Tech is a fiscally sponsored 501(c)3 organisation that
             through events, mentorship opportunity and computer science clubs
             empowers female and non-binary students.{" "}
           </Description>
           <Description wc="48">
-            Command tech is a fiscally sponsored 501(c)3 organisation that
+            Command Tech is a fiscally sponsored 501(c)3 organisation that
             educates, empowers and connects! Through our clubs, mentorship
             program and events, we are able to introduce female and non-binary
             students to tech, give them the resources necessary to explore it,

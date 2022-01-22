@@ -1,6 +1,6 @@
 # commandtech.dev
 
-Command Tech is a Malaysia-based student-led nonprofit aiming to bridge the gender gap in the tech industry.
+Command Tech is a student-led nonprofit aiming to bridge the gender gap in the tech industry.
 
 This website is built with Tailwind CSS and Next.js, hosted on Vercel.
 

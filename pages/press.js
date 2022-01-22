@@ -10,13 +10,13 @@ export default function Team() {
       <Meta title="Press" />
       <Nav />
       <main className="container-copy">
-        <h1 className="headline font-montserrat font-bold">Press</h1>
+        <h1 className="font-bold headline font-montserrat">Press</h1>
         <p>
           Thanks for your interest in Command Tech, you can probably find what
           you need here :) Please let us know if you use any information from
           this site!
         </p>
-        <h2 className="pt-8 subheadline font-semibold font-montserrat">
+        <h2 className="pt-8 font-semibold subheadline font-montserrat">
           About
         </h2>
         <div className="flex flex-col space-y-5">
@@ -49,19 +49,21 @@ export default function Team() {
           </Description>
         </div>
         <br />
-        <Button href="/">Our&nbsp;Pitch&nbsp;Deck&nbsp;&rarr;</Button>
+        <Button href="https://drive.google.com/file/d/1Pg1qO1zSxv9y_aYLnQZarFhbGjTFdwkC/view?usp=sharing">
+          Our&nbsp;Pitch&nbsp;Deck&nbsp;&rarr;
+        </Button>
 
-        <h2 className="subheadline pt-16 font-semibold font-montserrat">
+        <h2 className="pt-16 font-semibold subheadline font-montserrat">
           Our Logos
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto">
+        <div className="grid grid-cols-2 gap-5 mx-auto md:grid-cols-4">
           <Image src="/logos/square-white.png" width={200} height={200} />
           <Image src="/logos/square-white.png" width={200} height={200} />
           <Image src="/logos/square-white.png" width={200} height={200} />
           <Image src="/logos/square-white.png" width={200} height={200} />
         </div>
 
-        <h2 className="subheadline pt-16 font-semibold font-montserrat">
+        <h2 className="pt-16 font-semibold subheadline font-montserrat">
           Photos
         </h2>
         <div>
@@ -76,7 +78,7 @@ export default function Team() {
 function Description({ wc, children }) {
   return (
     <div>
-      <span className="text-sm lowercase font-light">
+      <span className="text-sm font-light lowercase">
         {wc} word description
       </span>
       <br />

@@ -4,7 +4,7 @@ import Icon from "supercons";
 import Image from "next/image";
 
 const links = [
-  { label: "Host an Event", href: "/" },
+  { label: "About", href: "/about" },
   { label: "Find a Speaker", href: "/" },
   { label: "Get a Mentor", href: "/" },
 ];

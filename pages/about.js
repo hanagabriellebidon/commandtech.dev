@@ -11,9 +11,9 @@ export default function About() {
       <Meta title="About" />
       <Nav />
       <main className="max-w-sm md:max-w-2xl lg:max-w-4xl">
-        <h1 className="headline font-montserrat font-bold">About</h1>
+        <h1 className="font-bold headline font-montserrat">About</h1>
         <br />
-        <p className="font-semibold font-montserrat text-2xl">
+        <p className="text-2xl font-semibold font-montserrat">
           <Highlight>
             <span className="font-semibold">Command Tech</span>
           </Highlight>{" "}
@@ -21,7 +21,7 @@ export default function About() {
           resources and opportunities to pursue that interest!
         </p>
         <br />
-        <div className="flex flex-col justify-center items-center md:flex-row">
+        <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="w-full md:w-1/2">
             <p>
               We do this through creating organiser tools to make creating
@@ -32,16 +32,16 @@ export default function About() {
               empowering tech communities in your own community so much easier!
             </p>
           </div>
-          <div className="rounded-xl overflow-hidden w-full md:w-1/2 border-2 border-navy dark:border-white">
+          <div className="w-full overflow-hidden border-2 rounded-xl md:w-1/2 border-navy dark:border-white">
             <Image src="/og-image.png" width={500} height={250} />
           </div>
         </div>
 
-        <h2 className="font-bold headline font-montserrat pt-4">
+        {/* <h2 className="pt-4 font-bold headline font-montserrat">
           Our Philosophy
         </h2>
         <Philosophy />
-        <h2>Our Annual Reports</h2>
+        <h2>Our Annual Reports</h2> */}
       </main>
       <Footer />
     </div>

@@ -34,7 +34,7 @@ export default function Home() {
               copy="We have a network of tech professionals that are enthusiastic about helping the next generation of female and nonbinary tech students!"
             />
             <InfoCard
-              destination="https://commandtech.dev/connect"
+              destination="https://connect.commandtech.dev"
               heading="Connect your community to tech mentors"
               copy="We provide the framework and mentors for your community so they can work on projects together and learn about the industry from tech mentors!"
             />

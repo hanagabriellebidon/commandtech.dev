@@ -90,9 +90,7 @@ export default function Footer() {
               <Link href="/clubs">Clubs</Link>
             </li>
             <li>
-              <Link href="https://connect.commandtech.dev">
-                Command Connect
-              </Link>
+              <Link href="/connect">Command Connect</Link>
             </li>
 
             <li>

@@ -21,7 +21,7 @@ export default function Home() {
           We can help <Highlight>you</Highlight> build tech opportunities for
           your community!
         </h3>
-        <section className="mx-8 md:mx-0">
+        <section>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             <InfoCard
               destination="http://bit.ly/ct-resource"

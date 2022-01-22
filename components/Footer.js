@@ -7,7 +7,7 @@ import Mailchimp from "./MailchimpForm";
 export default function Footer() {
   const { theme, setTheme } = useTheme();
   return (
-    <footer className="flex pb-8 mx-4 space-between max-w-screen md:max-w-4xl lg:max-w-6xl">
+    <footer className="flex pt-16 pb-8 mx-4 space-between max-w-screen md:max-w-4xl lg:max-w-6xl">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <ul className="space-y-1">
@@ -99,9 +99,13 @@ export default function Footer() {
               <Link href="/">Partnerships</Link>
             </li>
             <li>
-              <Link href="https://bank.hackclub.com/donations/start/command-tech">
+              <a
+                href="https://bank.hackclub.com/donations/start/command-tech"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Donate
-              </Link>
+              </a>
             </li>
             <li>
               <Link href="/discord">Discord Community</Link>

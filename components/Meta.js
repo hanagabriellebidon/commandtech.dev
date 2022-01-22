@@ -5,7 +5,7 @@ export default function Meta({ title }) {
     "Command Tech is a student-led nonprofit, striving to bring equity in tech to students of marginalized genders anywhere in the world.";
   const keywords = "stem, hackathon, mentorship, coding";
   const author = "Command Tech";
-  const twitter = "@CommandTech";
+  const twitter = "@WeCommandTech";
   const image = "/og-image.png";
   return (
     <Head>

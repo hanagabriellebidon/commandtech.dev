@@ -33,25 +33,25 @@ export default function Footer() {
 
             <li className="flex flex-row cursor-pointer">
               <a
-                href="https://twitter.com/commandtech"
+                href="https://twitter.com/wecommandtech"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Icon glyph="twitter" size={30} />
               </a>
               <a
-                href="https://instagr.am/commandtech"
+                href="hhttps://www.instagram.com/command.tech/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Icon glyph="instagram" size={30} />
               </a>
               <a
-                href="https://youtube.com/c/command_tech"
+                href="https://www.linkedin.com/company/commandtechmy/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon glyph="youtube" size={30} />
+                <Icon glyph="link" size={30} />
               </a>
               <a
                 href="https://github.com/Command-Tech"

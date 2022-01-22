@@ -12,8 +12,8 @@ const links = [
 export default function Nav() {
   const { theme, setTheme } = useTheme();
   return (
-    <nav className="dark:text-white">
-      <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
+    <nav className=" dark:text-white">
+      <ul className="flex flex-wrap items-center justify-between p-8 mt-0 mt-6">
         <li className="left-0">
           {theme === "dark" ? (
             <Image src="/logos/square-white.png" width={50} height={50} />

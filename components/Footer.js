@@ -7,8 +7,8 @@ import Mailchimp from "./MailchimpForm";
 export default function Footer() {
   const { theme, setTheme } = useTheme();
   return (
-    <footer className="flex space-between max-w-screen md:max-w-4xl lg:max-w-6xl mx-4 pb-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <footer className="flex pb-8 mx-4 space-between max-w-screen md:max-w-4xl lg:max-w-6xl">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <ul className="space-y-1">
             <li>
@@ -31,11 +31,35 @@ export default function Footer() {
               </a>
             </li>
 
-            <li className="flex flex-row">
-              <Icon glyph="twitter" size={30} />
-              <Icon glyph="instagram" size={30} />
-              <Icon glyph="youtube" size={30} />
-              <Icon glyph="github" size={30} />
+            <li className="flex flex-row cursor-pointer">
+              <a
+                href="https://twitter.com/commandtech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon glyph="twitter" size={30} />
+              </a>
+              <a
+                href="https://instagr.am/commandtech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon glyph="instagram" size={30} />
+              </a>
+              <a
+                href="https://youtube.com/c/command_tech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon glyph="youtube" size={30} />
+              </a>
+              <a
+                href="https://github.com/Command-Tech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon glyph="github" size={30} />
+              </a>
             </li>
           </ul>
         </div>
@@ -52,7 +76,7 @@ export default function Footer() {
               <Link href="/team">Team</Link>
             </li>
             <li>
-              <Link href="/team#advisors">Advisors</Link>
+              <Link href="/advisors">Advisors</Link>
             </li>
             <li>
               <Link href="/press">Press Kit</Link>
@@ -63,7 +87,7 @@ export default function Footer() {
           <ul className="space-y-2">
             <strong>Get Involved</strong>
             <li>
-              <Link href="/">Clubs</Link>
+              <Link href="/clubs">Clubs</Link>
             </li>
             <li>
               <Link href="https://connect.commandtech.dev">
@@ -75,7 +99,7 @@ export default function Footer() {
               <Link href="/">Partnerships</Link>
             </li>
             <li>
-              <Link href="https://bank.hackclub.com/donations/start">
+              <Link href="https://bank.hackclub.com/donations/start/command-tech">
                 Donate
               </Link>
             </li>

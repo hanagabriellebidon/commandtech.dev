@@ -31,33 +31,36 @@ html[data-theme="dark"] {
     @apply max-w-xl;
   }
   .ultratitle {
-    @apply text-6xl lg:text-7xl xl:text-8xl font-bold;
+    @apply text-6xl font-bold lg:text-7xl xl:text-8xl;
   }
   .title {
-    @apply text-5xl lg:text-6xl xl:text-7xl font-bold;
+    @apply text-5xl font-bold lg:text-6xl xl:text-7xl;
   }
   .subtitle {
     @apply mt-3 text-3xl lg:text-4xl;
   }
   .headline {
-    @apply text-5xl mt-3 mb-3;
+    @apply mt-3 mb-3 text-5xl;
   }
   .subheadline {
-    @apply text-3xl mt-0 mb-3;
+    @apply mt-0 mb-3 text-3xl;
   }
   .eyebrow {
-    @apply text-gray-400 text-4xl lg:text-5xl uppercase mt-0 mb-2;
+    @apply mt-0 mb-2 text-2xl font-bold text-gray-400 lg:text-2xl;
   }
   .lead {
-    @apply text-3xl lg:text-4xl my-2 lg:my-3;
+    @apply my-2 text-3xl lg:text-4xl lg:my-3;
   }
   .caption {
-    @apply text-gray-400 font-medium;
+    @apply font-medium text-gray-400;
   }
   .btn {
-    @apply rounded-md bg-blue-300 dark:bg-blue-500 p-2 px-4;
+    @apply p-2 px-4 bg-blue-300 rounded-md dark:bg-blue-500;
   }
   input {
-    @apply bg-gray-300 dark:bg-gray-100 rounded-lg px-3 py-1;
+    @apply px-3 py-1 bg-gray-300 rounded-lg dark:bg-gray-100;
+  }
+  p li {
+    @apply text-lg;
   }
 }

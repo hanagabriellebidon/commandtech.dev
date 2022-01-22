@@ -14,13 +14,15 @@ export default function Nav() {
   return (
     <nav className=" dark:text-white">
       <ul className="flex flex-wrap items-center justify-between p-8 mt-0 mt-6">
-        <li className="left-0">
-          {theme === "dark" ? (
-            <Image src="/logos/square-white.png" width={50} height={50} />
-          ) : (
-            <Image src="/logos/square-blue.png" width={50} height={50} />
-          )}
-        </li>
+        <Link href="/" passHref>
+          <li className="left-0">
+            {theme === "dark" ? (
+              <Image src="/logos/square-white.png" width={50} height={50} />
+            ) : (
+              <Image src="/logos/square-blue.png" width={50} height={50} />
+            )}
+          </li>
+        </Link>
         <ul className={`mx-auto sm:mx-0 flex flex-row space-x-5`}>
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>

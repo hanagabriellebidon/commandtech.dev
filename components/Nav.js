@@ -13,9 +13,9 @@ export default function Nav() {
   const { theme, setTheme } = useTheme();
   return (
     <nav className=" dark:text-white">
-      <ul className="flex flex-wrap items-center justify-between p-8 mt-0 mt-6">
+      <ul className="flex flex-wrap items-center justify-between p-8 mt-0">
         <Link href="/" passHref>
-          <li className="left-0">
+          <li className="left-0 cursor-pointer">
             {theme === "dark" ? (
               <Image src="/logos/square-white.png" width={50} height={50} />
             ) : (

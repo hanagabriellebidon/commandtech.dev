@@ -16,6 +16,11 @@ const nextConfig = {
         destination: "https://github.com/eilla1.png",
         permanent: false,
       },
+      {
+        source: "/connect",
+        destination: "https://connect.commandtech.dev",
+        permanent: false,
+      },
     ];
   },
   async rewrites() {

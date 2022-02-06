@@ -13,7 +13,7 @@ const nextConfig = {
       },
       {
         source: "/meow",
-        destination: "https://github.com/eilla1.png",
+        destination: "https://github.com/exu3.png",
         permanent: false,
       },
       {

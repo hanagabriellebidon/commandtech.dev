@@ -40,7 +40,7 @@ html[data-theme="dark"] {
     @apply mt-3 text-3xl lg:text-4xl;
   }
   .headline {
-    @apply mt-3 mb-3 text-5xl;
+    @apply mt-3 mb-3 text-3xl sm:text-5xl;
   }
   .subheadline {
     @apply mt-0 mb-3 text-3xl;

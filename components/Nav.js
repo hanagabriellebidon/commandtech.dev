@@ -13,7 +13,7 @@ export default function Nav() {
   const { theme, setTheme } = useTheme();
   return (
     <nav className=" dark:text-white">
-      <ul className="flex flex-wrap items-center justify-between p-8 mt-0">
+      <ul className="flex flex-wrap items-center justify-between p-2 md:p-4 sm:p-8 mt-0">
         <Link href="/" passHref>
           <li className="left-0 cursor-pointer">
             {theme === "dark" ? (

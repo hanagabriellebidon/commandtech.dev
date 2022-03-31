@@ -1,6 +1,6 @@
 ---
 title: "hi wat up"
-date: "10-12-12"
+date: "December 12, 2021"
 description: "hai this is a description"
 image: "/images/placeholder0.webp"
 ---

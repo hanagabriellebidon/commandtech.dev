@@ -19,18 +19,18 @@ export default function BlogIndex({ posts }) {
 
         <div className="">
           {posts.map((post, index) => (
-            <div className="flex flex-row items-center space-x-8" key={index}>
-              <div className="w-32">{post.frontmatter.date}</div>
-              <div className="flex flex-col w-1/2">
-                <p className="font-bold font-montserrat text-xl">
+            <div className="flex md:flex-row flex-col space-x-8 py-8 md:justify-items-center" key={index}>
+              <div className="w-32 md:ml-0 ml-8 font-light text-sm">{post.frontmatter.date}</div>
+              <div className="flex flex-col w-3/4">
+                <p className="font-bold font-montserrat text-xl pb-4">
                   {post.frontmatter.title}
                 </p>
                 <p>{post.frontmatter.description}</p>
-              </div>
-              <div className="justify-end">
-                <Link href={`/blog/${post.slug}`}>
-                  <a className="btn">Read More</a>
-                </Link>
+                <div className="py-4 ">
+                  <Link href={`/blog/${post.slug}`}>
+                    <a className="btn">Read More</a>
+                  </Link>
+                </div>
               </div>
             </div>
           ))}

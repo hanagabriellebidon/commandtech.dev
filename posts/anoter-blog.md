@@ -1,7 +1,7 @@
 ---
 title: "blawg"
-date: "10-12-123"
-description: "hai tadfasdf asdfasd fasdf"
+date: "December 10, 2021"
+description: "hai tadfasdf asdfasd fasdf We just released Headless UI v1.5, which includes a brand new Combobox component. Comboboxes are like select controls but with autocomplete/typeahead functionality."
 image: "/images/placeholder0.jpeg"
 ---
 

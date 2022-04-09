@@ -13,7 +13,7 @@ export default function About() {
       <main className="max-w-xs md:max-w-2xl lg:max-w-4xl ">
         <h1 className="font-bold headline font-montserrat">About</h1>
         <br />
-        <p className="text-2xl font-semibold font-montserrat ">
+        <p className="text-2xl font-semibold font-montserrat">
           <Highlight>
             <span className="font-semibold">Command Tech</span>
           </Highlight>{" "}

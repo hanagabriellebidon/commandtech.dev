@@ -10,7 +10,7 @@ export default function About() {
     <div className="flex flex-col items-center min-h-screen text-navy dark:text-white dark:bg-navy">
       <Meta title="About" />
       <Nav />
-      <main className="max-w-xs md:max-w-2xl lg:max-w-4xl ">
+      <main className="max-w-xs md:max-w-2xl lg:max-w-4xl">
         <h1 className="font-bold headline font-montserrat">About</h1>
         <br />
         <p className="text-2xl font-semibold font-montserrat">

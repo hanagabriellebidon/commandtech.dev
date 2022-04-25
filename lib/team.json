@@ -5,11 +5,6 @@
     "image": "/team/belle.png"
   },
   {
-    "name": "Susan",
-    "role": "Operations Director",
-    "image": "/team/belle.png"
-  },
-  {
     "name": "Sobiah",
     "role": "Partnerships Director",
     "image": "/team/belle.png"
@@ -40,38 +35,33 @@
     "image": "/team/belle.png"
   },
   {
-    "name": "Jolie",
-    "role": "Mentorship Team",
+    "name": "Sony",
+    "role": "Web Developer",
     "image": "/team/belle.png"
   },
   {
-    "name": "Mansi",
-    "role": "Outreach",
+    "name": "Vaishnavi",
+    "role": "Social Media Manager",
     "image": "/team/belle.png"
   },
   {
     "name": "Coco",
-    "role": "Outreach",
+    "role": "Community Outreach",
     "image": "/team/belle.png"
   },
   {
-    "name": "Pooja",
-    "role": "Outreach",
+    "name": "Jeanette",
+    "role": "Community Outreach",
     "image": "/team/belle.png"
   },
   {
-    "name": "Geetanjali",
-    "role": "Community",
+    "name": "Jolie",
+    "role": "Mentorship Co-Director",
     "image": "/team/belle.png"
   },
   {
-    "name": "Aashritha",
-    "role": "Mentorship Team",
-    "image": "/team/belle.png"
-  },
-  {
-    "name": "Matreyi",
-    "role": "Mentorship Team",
+    "name": "Poonam",
+    "role": "Mentorship Co-Director",
     "image": "/team/belle.png"
   }
 ]
